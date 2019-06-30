@@ -2,6 +2,7 @@ package com.jujiabao.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @Title DeptConsumer80_App
@@ -11,6 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Date 2019-06-26 22:25
  */
 @SpringBootApplication
+@EnableDiscoveryClient
 public class DeptConsumer80_App {
 
     public static void main(String[] args) {
