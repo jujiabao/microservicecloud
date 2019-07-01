@@ -19,8 +19,8 @@ import java.util.List;
 @RestController
 public class DeptController_Consumer {
 
-    private static final String REST_URL_PREFIX = "http://localhost:8001";
-    //private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT";
+    //private static final String REST_URL_PREFIX = "http://localhost:8001";//单机配置
+    private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT";//集群化eureka配置，无需在意eureka的端口号
 
     @Autowired
     private RestTemplate restTemplate;
