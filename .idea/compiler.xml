@@ -13,6 +13,7 @@
         <module name="microservicecloudeureka7002" />
         <module name="microservicecloudeureka7001" />
         <module name="microservicecloud-api" />
+        <module name="microservicecloudproviderdepthystrix8001" />
         <module name="microservicecloudconsumerdept80" />
         <module name="microservicecloudproviderdept8003" />
       </profile>
