@@ -12,7 +12,15 @@ eureka:
   instance:
     instance-id: gateway-9527.com
     prefer-ip-address: true
- 
+
+zuul:
+#  ignored-services: microservicecloud-dept #忽略单个微服务
+  ignored-services: "*" #忽略全部微服务
+  routes:
+    mydept.serviceId: microservicecloud-dept
+    mydept.path: /mydept/**
+  prefix: /jujiabao #增加前缀
+
 info:
   app.name: jujiabao-microcloud
   company.name: www.jujiabao.com
