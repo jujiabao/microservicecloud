@@ -4,4 +4,4 @@ springboot+springcloud快速开发样例
 
 springboot+springcloud云图
 
-![diagram-distributed-systems](/Users/Hello.Ju/Downloads/diagram-distributed-systems.svg)
+![diagram-distributed-systems](doc/images/diagram-distributed-systems.svg)
